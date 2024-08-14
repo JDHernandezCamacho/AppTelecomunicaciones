@@ -14,7 +14,7 @@
 ![MariaDB](https://img.shields.io/badge/maria_db-100000?style=for-the-badge&logo=&logoColor=A78A8A&labelColor=BA9A9A&color=0073FF)
 
 
-![Barner](/assets/BrnerInicial.png)
+![Barner](/Assets/BrnerInicial.png)
 
 <div>
     <div align='center'>
@@ -68,7 +68,7 @@ Los datos originales los puedes descargar de los siguientes enlaces:
 
 # ✔️```Proceso del proyecto```
 El siguiente gráfico muestra cual fue el desarrollo del proyecto: 
-![Esquema gráfico](/assets/procesoAPP.png)
+![Esquema gráfico](/Assets/procesoAPP.png)
 
 
 
@@ -79,7 +79,7 @@ Durante esta etapa del proyecto, de llevó a cabo la extracción, transformació
 > Ten cuidado al ejecutar este script, ten en cuenta que si ejecutas el archivo, se editan las bases de datos ya cargadas.
 > En caso de replicar, es importante ejecutar el archivo ``ETL.ipynb`` con las librerias previamente instaladas. 👀
 ### ✔️```Resultados```
-![ETL](/assets/ETL.png)
+![ETL](/Assets/ETL.png)
 
 
 
@@ -88,10 +88,10 @@ Tras haber completado las tareas de ETL, se realiza el EDA (Análisis Explorator
 > [!IMPORTANT]
 > De igual forma es importante no borrar las bases de datos ya previamnete cargadas en el proyecto. 👀
 ### ✔️```Resultados```
-![EDA](/assets/EDA_0.png)
-![EDA](/assets/EDA_1.png)
-![EDA](/assets/EDA_2.png)
-![EDA](/assets/EDA_3.png)
+![EDA](/Assets/EDA_0.png)
+![EDA](/Assets/EDA_1.png)
+![EDA](/Assets/EDA_2.png)
+![EDA](/Assets/EDA_3.png)
 
 
 
@@ -104,11 +104,11 @@ El Dashboard esta dividido en 4 secciones importantes para el análisis de los d
 4. KPI o Indicadores Claves de Desempeño
 El dashboard elaborado se encuentra en la carpeta ``PowerBi`` y el arhivo con el nombre ``Dashboard_Telecomunicaciones_Diego.pbix``
 ### ✔️```Resultados```
-![Dashboard](/assets/Dash_1.png)
-![Dashboard](/assets/Dash_2.png)
-![Dashboard](/assets/Dash_3.png)
-![Dashboard](/assets/Dash_4.png)
-![Dashboard](/assets/Dash_5.png)
+![Dashboard](/Assets/Dash_1.png)
+![Dashboard](/Assets/Dash_2.png)
+![Dashboard](/Assets/Dash_3.png)
+![Dashboard](/Assets/Dash_4.png)
+![Dashboard](/Assets/Dash_5.png)
 
 
 4. ## ✏️ Streamlit (Visualización)
@@ -127,8 +127,8 @@ De igual forma se tiene una carpeta llamada ``pages`` que contiene 3 archivos, e
 </div>
 
 ### ✔️```Resultados```
-![Streamlit](/assets/streamlit_1.png)
-![Streamlit](/assets/streamlit_2.png)
+![Streamlit](/Assets/streamlit_1.png)
+![Streamlit](/Assets/streamlit_2.png)
 
 
 
