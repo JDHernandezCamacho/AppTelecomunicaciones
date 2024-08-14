@@ -117,28 +117,19 @@ La carpeta ``Streamlit`` dentro de este proyecto contiene un archivo ``main.py``
 De igual forma se tiene una carpeta llamada ``pages`` que contiene 3 archivos, el primero de ellos deploya Una página con enlaces hacia los datos de la ENACOM, el segundo archivo muestra tablas con los datos transformados, estos provienen directamente de la base de datos donde fueron cargados después de realizar el ETL, ahí se puede visualizar como se estructurarron los datos para el siguiente paso y por último el archivo con el nombre dashboard, contiene el dashboard realizado en Power Bi.
 > [!IMPORTANT]
 > El resultado de la app lo puedes visualizar aquí.  👀
+
 <div>
     <div align='center'>
     <a href="https://apptelecomunicaciones-anpynkqeoujjh4uvtwz9jx.streamlit.app/" target="_blank" target="_blank">
           <img  src="https://img.shields.io/badge/app-100000?style=for-the-badge&logo=&logoColor=A78A8A&labelColor=BA9A9A&color=FF7C00"/>
-       </a>
+    </a>
     </div>
 </div>
+
 ### ✔️```Resultados```
-![FastAPI](/assets/FastAPI.png)
+![Streamlit](/assets/streamlit_1.png)
+![Streamlit](/assets/streamlit_2.png)
 
-
-
-5. ## 🖥️ Virtualización y deployment
-Para la ejecución de las API´s se recurrió al alojamiento del proyecto en los repositorios de GIt Hub, conectado el repositorio con Render, se realizó el deployment, esto con la finalidad de poder visualizar las consultas y así tener la información disponible para consumo. 
-> [!IMPORTANT]
-> Cabe recalcar que se utilizó render en modo gratuito por lo que se redujeron los datos para su correcto funcionamiento.
-![GitHub](/assets/GitHub.png)
-
-
-
-
-![GitHub](/assets/Recomendation.png)
 
 
 
@@ -150,45 +141,42 @@ Para el desarrollo de este proyecto se manipularon las siguientes herramientas:
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![Seaborn](https://img.shields.io/badge/Seaborn-%2370399F.svg?style=for-the-badge&logo=seaborn&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=ffffff)
 ![venv](https://img.shields.io/badge/Virtualenv-venv-%2300FFFF?style=for-the-badge&logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Render](https://img.shields.io/badge/Render-46E3B7.svg?style=for-the-badge&logo=Render&logoColor=white)
+![PowerBi](https://img.shields.io/badge/Power_Bi-100000?style=for-the-badge&logo=PowerBi&logoColor=white&labelColor=F7FF13&color=FFF700)
+![PyMySQL](https://img.shields.io/badge/PyMySQL-100000?style=for-the-badge&logo=PowerBi&logoColor=white&labelColor=0DD3FF&color=00D9FF)
+![MySQL](https://img.shields.io/badge/MySQL-100000?style=for-the-badge&logo=MySQL&logoColor=000000&labelColor=5EECFF&color=5EECFF)
+![SQLAlquemy](https://img.shields.io/badge/SQLAlquemy-100000?style=for-the-badge&logo=&logoColor=A78A8A&labelColor=BA9A9A&color=FF759F)
+![StreamLit](https://img.shields.io/badge/streamlit-100000?style=for-the-badge&logo=&logoColor=A78A8A&labelColor=BA9A9A&color=7593FF)
+![MariaDB](https://img.shields.io/badge/maria_db-100000?style=for-the-badge&logo=&logoColor=A78A8A&labelColor=BA9A9A&color=0073FF)
 
 
 # ✔️```Replicación del proyecto```
-El sistema de recomendación aquí mostrado, puedes replicarlo por tí mismo, así como corroborar código, realizar modificaciones, realizar consultas, ejecutar pruebas, como base de estudio e incluso mejorarlo. Para ello es necesario que sigas los siguientes pasos:
+La app que se encuentra en este repositorio puedes replicarlo por tí mismo, así como corroborar código, realizar modificaciones, realizar consultas, ejecutar pruebas, como base de estudio e incluso mejorarlo. Para ello es necesario que sigas los siguientes pasos:
 1. Forkea este repositorio.
 2. Sincronizarlo en tu ordenador.
 3. Configura tu entorno virtual.
 4. Activa tu entorno virtual.
-5. Asegurate de tener los archivos necesarios: ``main.py``, carpeta ``data`` con los datos en formato parquet.
+5. Asegurate de tener los archivos necesarios: carpeta ``Streamlit`` con su archivo ``main.py``, carpeta ``pages`` con 3 archivos importantes en formato py.
 6. Instala las dependencias especificadas en el archivo ``requirements.txt``.
-7. Ejecuta el comando ```uvicorn main:app --reload``` para iniciar la aplicación.
-8. Despliega el Render en tu ordenador accediendo a tu localhost y el puerto dedicado mismo que te será proporcionado cuando ejecutes el paso anterior.
+7. Crea y ejecuta tu entorno virtual ``py venv venv``, ``venv/Scripts/activate ``
+7. Ejecuta el comando ``streamlit run .\streamlit\main.py`` para iniciar la aplicación.
+8. Despliega el Streamlit en tu ordenador accediendo a tu localhost y el puerto dedicado mismo que te será proporcionado cuando ejecutes el paso anterior.
 
 
-# ✔️```Posibles mejoras del proyecto```
-1. Ampliación del Dataset:
-    - Incorporar más datos, como reseñas de usuarios y clasificaciones detalladas, podría mejorar la precisión de las recomendaciones y la calidad de la información proporcionada.
 
-2. Mejora de Algoritmos de Recomendación:
-    - Explorar otros algoritmos de recomendación como modelos basados en redes neuronales o recomendaciones colaborativas podría ofrecer recomendaciones aún más precisas y personalizadas.
+# ✔️```Conclusiones y recomendaciones:```
 
-3. Interfaz de Usuario:
-    - Desarrollar una interfaz de usuario interactiva y amigable podría mejorar significativamente la experiencia del usuario final, haciendo la API más accesible y atractiva.
-
-
-# ✔️```Conclusión```
-
-Para dar cierre al desarrollo del proyecto, se concluye que el proyecto ha logrado crear una API robusta y eficiente para la consulta y recomendación de películas, utilizando técnicas avanzadas de procesamiento de texto y algoritmos de similitud. Con una base sólida establecida, existen múltiples oportunidades para expandir y mejorar el sistema, lo que podría llevar a un servicio de recomendación de películas altamente competitivo y útil para los usuarios e incluso el uso en plataformas de streaming.
-
+1. Para el tipo de servicio de internet es recomendable proporcionar servicios de velocidades de 30 Mbps o mayores.
+2. Para los partidos con población mayor al 10K habitantes y menor a 25% de accesos, incrementar el porcentaje en un 10%.
+3. Para el incremento de ingresos por accesos de internet, telefonía y televisión, realizar promociones o paquetes de los tres servicios.
 
 
 # ✔️```Sobre mi```
 
-| [<img src="https://media.licdn.com/dms/image/D5603AQEnBacsLH1pnA/profile-displayphoto-shrink_800_800/0/1715214794765?e=1727913600&v=beta&t=2UKwQG8Hd4qK4Ac_R40acaT1UojfqqtOkECmPSpxs4s" width=150><br><sub>Juan DIego Hernández Camacho</sub>](https://www.linkedin.com/in/juan-diego-hernandez-camacho-5176022aa/)
+[<img src="https://media.licdn.com/dms/image/D5603AQEnBacsLH1pnA/profile-displayphoto-shrink_800_800/0/1715214794765?e=1727913600&v=beta&t=2UKwQG8Hd4qK4Ac_R40acaT1UojfqqtOkECmPSpxs4s" width=150><br><sub>Juan DIego Hernández Camacho</sub>](https://www.linkedin.com/in/juan-diego-hernandez-camacho-5176022aa/)
 
 
 Gracias por leer este repositorio 💛
+
+No olvides dejar tu estrellita ⭐
