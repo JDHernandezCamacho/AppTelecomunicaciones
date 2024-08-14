@@ -1,0 +1,37 @@
+Algunos enlaces de interés
+
+Proyecto de recomendación de peliculas
+1. https://github.com/DanniRodrJ/Content-Based_Movie_Recommendation_System/blob/main/etl-eda/ETL.ipynb
+
+Librería de countries
+2. https://stackoverflow.com/questions/16253060/how-to-convert-country-names-to-iso-3166-1-alpha-2-values-using-python
+
+Dataframe to Parquet
+3. https://pandas.pydata.org/pandas-docs/version/1.1/reference/api/pandas.DataFrame.to_parquet.html
+
+Sistema de recomendación de películas
+4. https://github.com/Angiea18/Analisis-Top250Movies/tree/main
+
+
+https://proyect-0227.onrender.com/
+
+
+Ivancho Cepeda
+5:03 p.m.
+https://github.com/Ivan-Cepeda/FastAPI-Docker			--Dockerizar
+
+Ivancho Cepeda
+5:23 p.m.
+https://drive.google.com/drive/folders/1_ZR7zYU1gdMCDnbkIxJGtoiV_XQRlwT-		--drive carpeta 02
+
+Angela Aguirre
+5:35 p.m.
+https://view.genially.com/6422f9b3cc6cde0013408c56/interactive-content-actividad-tolerancia-a-la-frustracion    --Enryqueta
+
+
+Video Soft Skill
+https://www.youtube.com/watch?v=oMk-2OWyfvo
+
+
+Crear Badges
+\*https://kapasia-dev-ed.my.site.com/Badges4Me/s/\*

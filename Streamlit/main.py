@@ -2,7 +2,7 @@ import streamlit as st
 
 
 # Título
-st.title("App de Data Analytics y Business Intelligence sobre telecomunicaciones en Argentina")
+st.title("App de Data Analytics y Business Intelligence sobre servicios de telecomunicaciones en Argentina")
 st.markdown("***")
 
 # Introducción
@@ -10,4 +10,4 @@ st.write("¡Bienvenido a la App de Análisis de datos en el área de telecomunic
 
 
 # Imagne de Bienvenida
-st.image("https://github.com/JDHernandezCamacho/AppTelecomunicaciones/blob/main/Assets/Background.png?raw=true", caption="By: Juan Diego Hernández Camacho")
+st.image("https://github.com/JDHernandezCamacho/AppTelecomunicaciones/blob/main/Assets/BarnerInicial.png?raw=true", caption="By: Juan Diego Hernández Camacho")

@@ -1,0 +1,11 @@
+Video KO - https://drive.google.com/file/d/12EEOD0czzU70F0_DK_3sTjPgOqqgjQR9/view
+Datos Mundial - https://www.datosmundial.com/america/argentina/telecomunicacion.php#google_vignette
+Rúbrica - https://docs.google.com/spreadsheets/d/e/2PACX-1vTy9Ome3iLIl40SZ2jciZLiwARr9MVXfo_Mud3vVCin9P4zroAw_oxVQVch6m4TKivmUjFrYJKMJJhS/pubhtml
+Repo - https://github.com/soyHenry/PI_DA/tree/PART-TIME
+
+
+
+
+
+SQL
+CREATE TABLE `bn83gilwrcfotqoazybx`.`Ingresos` (`Anio` DATE NOT NULL , `Trimestre` INT(1) NOT NULL , `Ingresos (miles pesos)` INT NOT NULL , `Periodo` VARCHAR(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish2_ci NOT NULL ) ENGINE = InnoDB;
