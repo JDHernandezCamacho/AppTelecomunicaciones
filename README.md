@@ -14,7 +14,7 @@
 ![MariaDB](https://img.shields.io/badge/maria_db-100000?style=for-the-badge&logo=&logoColor=A78A8A&labelColor=BA9A9A&color=0073FF)
 
 
-![Barner](/assets/BarnerInicial.png)
+![Barner](/assets/BrnerInicial.png)
 
 <div>
     <div align='center'>

@@ -10,4 +10,4 @@ st.write("¡Bienvenido a la App de Análisis de datos en el área de telecomunic
 
 
 # Imagne de Bienvenida
-st.image("https://github.com/JDHernandezCamacho/AppTelecomunicaciones/blob/main/Assets/BarnerInicial.png?raw=true", caption="By: Juan Diego Hernández Camacho")
+st.image("https://github.com/JDHernandezCamacho/AppTelecomunicaciones/blob/main/Assets/BrnerInicial.png?raw=true", caption="By: Juan Diego Hernández Camacho")
